@@ -1,10 +1,16 @@
-h1, p {
-  font-family: Lato;
+body {
+  margin: 0;
 }
 
 .application {
   width: 100vw;
   height: 100vh;
 
-  background-image: url("ubuntu-background.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/cjativa/ubuntu-tutorial@Complete/ubuntu-background.png");
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 } 
+
+@import './styles/navigation-bar.scss';
