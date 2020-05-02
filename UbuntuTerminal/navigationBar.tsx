@@ -10,7 +10,7 @@ import {
   faCircle
 } from "@fortawesome/free-solid-svg-icons";
 
-const NavigationBar = props => {
+export const NavigationBar = props => {
 
   // Get our config from the props
   const { config } = props;
@@ -35,7 +35,7 @@ const NavigationBar = props => {
         <FontAwesomeIcon icon={faSearch} size="sm" className="raised" />
         <FontAwesomeIcon icon={faBars} size="sm" className="raised" />
         <FontAwesomeIcon icon={faMinus} size="sm" className="min" />
-        <FontAwesomeIcon icon={faSquare} size="sm" className="max-square" />}
+        <FontAwesomeIcon icon={faSquare} size="sm" className="max-square" />
 
         {/** Stacked FontAwesome icons for the "Close" button */}
         <span className="fa-stack custom">

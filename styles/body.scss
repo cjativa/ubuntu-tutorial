@@ -1,0 +1,45 @@
+.body {
+	width: 100%;
+	height: 100%;
+	padding: 3px 5px;
+
+	cursor: default;
+
+	background: #300a24;
+	color: #ffffff;
+
+	position: relative;
+	overflow: hidden;
+}
+
+.command {
+	&__green {
+		color: #8be331;
+	}
+	&__white {
+		color: #ffffff;
+	}
+
+	&__blue {
+		color: #739ece;
+	}
+}
+
+.input-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.terminal-input {
+  border: none;
+
+  color: #ffffff;
+  background: none;
+
+  font-family: 'Ubuntu Mono', monospace;;
+  font-size: 16px;
+
+  &:active, &:focus {
+    outline: none;
+  }
+}

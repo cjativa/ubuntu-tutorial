@@ -1,0 +1,61 @@
+.navigation-bar {
+	height: 35px;
+	background-color: #312f30;
+	color: #ffffff;
+	padding: 0px 10px;
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	align-items: center;
+
+	position: relative;
+
+	.nb {
+		&__center {
+			justify-self: center;
+			font-weight: 300;
+			cursor: default;
+			user-select: none;
+		}
+
+		&__right {
+			justify-self: end;
+
+			display: grid;
+			grid-template-columns: repeat(4, 1fr) min-content;
+			column-gap: 10px;
+
+			justify-items: center;
+			align-items: center;
+		}
+	}
+
+	.custom {
+		height: 1em;
+	}
+
+	.close {
+		color: #312f30;
+	}
+
+	.custom:hover .close {
+		color: #e25728;
+	}
+
+	.raised {
+		background-color: #403e3f;
+		border: 1px solid #282626;
+		border-radius: 4px;
+		padding: 5px 8px;
+	}
+
+	.max-square,
+	.min-square,
+	.min {
+		padding: 5px 8px;
+		&:hover {
+			background-color: #403e3f;
+		}
+	}
+}

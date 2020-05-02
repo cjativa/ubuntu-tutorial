@@ -1,0 +1,15 @@
+.ubuntu {
+  height: 300px;
+  width: 600px;
+  padding: 0px;
+  
+  overflow: hidden;
+  border-radius: 10px;
+  
+  font-family: 'Ubuntu Mono', monospace;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  position: absolute;
+
+  display: grid;
+  grid-template-rows: 35px 1fr;
+}
