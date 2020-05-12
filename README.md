@@ -4,4 +4,4 @@ A modified version of the [Ubuntu Terminal](https://github.com/cjativa/Ubuntu-Te
 
 Meant to help others create and style their own terminals for the browser here [Creating an Ubuntu Terminal](http://zerochass.io/tutorial/creating-an-ubuntu-terminal-with-react).
 
-See the deployed version here [Ubuntu Terminal - Tutorial](https://ubuntu-tutorial.stackblitz.io).
+See the deployed version on StackBlitz here [Ubuntu Terminal - Tutorial](https://ubuntu-tutorial.stackblitz.io).
